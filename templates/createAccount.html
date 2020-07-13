@@ -37,8 +37,12 @@
                         <div class="login_part_form_iner">
                             <h3>Welcome Back ! <br>
                                 Please Sign in now</h3>
-                            <form class="row contact_form" method="POST"> {% csrf_token %}
+                            <form class="CreateAccount" method="POST"> {% csrf_token %}
                                 {{ form.as_p }}
+                                <p>
+                                    <label for="id_password2">Confirmar Contraseña:</label> 
+                                    <input type="password" name="password2" placeholder="Confirma tu Contraseña" required="" id="id_password2">
+                                </p>
                                 
                                 <div class="col-md-12 form-group">
                                     
