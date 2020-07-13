@@ -1991,13 +1991,15 @@
     h3{
       font-size: 26px;
       line-height: 36px;
-      font-weight: 700;     
+      font-weight: 700;
+      margin-bottom: 80px;
       @media #{$tab}{
         margin-bottom: 20px;
       }
       @media #{$medium_device}{
         margin-bottom: 20px;
-      }
+      }     
+      
     }
     .form-control{
       border: 0px solid transparent;
